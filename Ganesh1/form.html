@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        body{
+            text-align: justify;
+            padding: 0% 0%;
+            font-family: Arial, Helvetica, sans-serif;
+            text-transform: capitalize;
+            background-color: rgba(6, 9, 9, 0.963);
+            color: rgba(239, 24, 17, 0.92);
+        }
+        h2{
+            text-align: center;
+        }
+        .form{
+            margin: auto;
+           
+            width: fit-content;
+            font-size: larger;
+            height: fit-content;
+        }
+        input, select, p{
+            margin-top: 30px;
+            outline: none;
+            
+        }
+        input, select, button{
+            height: 23px;
+            padding: 3px;
+            margin-top: 7px;
+            font-size: 17px;
+            border-radius: 10px;
+            border: 1px solid white;
+            width: auto;
+            height: 32px;
+        }
+
+        #command{
+            font-size: 16px;
+            padding-bottom: 113px;
+        }
+        button{
+            text-align: center;
+        }
+        a{
+            color: red;
+            
+        }
+        footer{
+            display: flex;
+            flex-direction: column;
+            padding: 0;
+            margin: 0;
+            width: fit-content;
+            margin: auto;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h2>student form</h2>
+   <div class="form">
+  
+    <p>name</p>
+    <input type="text">
+    <p>age</p>
+    <input type="date">
+    <p>mail</p>
+    <input type="email" name="mail" id="">
+    <p>course</p>
+    <select name="" id="">
+        <option>course</option>
+        <option value="base">computer science</option>
+        <option value="">physics</option>
+        <option value="">maths</option>
+    </select>
+    <p>command</p>
+    <input type="text" name="" id="command" ><br>
+    <button type="submit" class="submit">submit</button>
+   </div><br>
+   <hr>
+   <footer style="position: flex;">
+    <p> &copy;copyright</p><br>
+    <a href="mailto:misganesh69@gmail.com">mail</a>
+    <p>owner by ganesh.k</p>
+   </footer>
+</body>
+</html>
